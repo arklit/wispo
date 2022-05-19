@@ -1,0 +1,125 @@
+.header{
+  box-shadow: 0px 10px 10px -6px rgba(35, 25, 4, 0.15);
+  &__container {
+    max-width: 1520px;
+    margin: 20px auto;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+  }
+  &__logo {
+    position: relative;
+    &-img {
+      margin-right: 11px;
+    }
+  }
+  &__logo-subtext{
+    position: absolute;
+    bottom: 5px;
+    left: 40px;
+  }
+  &__links {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 40px;
+  }
+  &__link {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #E6E6E6;
+    position: relative;
+  }
+  &__link-star {
+    display: flex;
+  }
+  &__star {
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+  &__contacts {
+    margin-left: auto;
+  }
+  &__worktime {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: end;
+  }
+  &__worktime::before {
+    content: url('../../images/greenDot.svg');
+    margin-right: 3px;
+  }
+  &__phone {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  &__phone::before {
+    content: url('../../images/trubka.svg');
+    margin-right: 5px;
+  }
+  &__navBar {
+    border-top: 1px solid #E6E6E6;
+    margin-top: 21px;
+    width: 100%;
+
+    &-container {
+      padding: 10px 0 10px 0;
+      height: 60px;
+      max-width: 1520px;
+      margin: 0 auto;
+      display: flex;
+    }
+    &-text {
+      margin-left: 10px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+  &__catalog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__remont {
+    display: flex;
+    align-items: center;
+    margin-left: 72px;
+    margin-right: 67px;
+  }
+  &__razdelitel {
+    width: 2px;
+    height: 28px;
+  }
+  &__razdelitel-1th {
+    width: 2px;
+    height: 28px;
+    margin-left: 57px;
+  }
+  &__text-selector::after {
+    content: url('../../images/selectTag.svg');
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 1540px){
+  .header{
+  padding: 0 40px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .header {
+    max-width: 1080px;
+    padding: 0;
+    margin: 0 auto;
+    &__razdelitel {
+      visibility: hidden;
+    }
+  }
+}
+

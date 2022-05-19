@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wispo</title>
+</head>
+<body class="page">
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo">
+        <img class="header__logo-img" src="<%=require('./images/logo.svg')%>"/>
+        <img src="<%=require('./images/logoText.svg')%>"/>
+        <img class="header__logo-subtext" src="<%=require('./images/logoSubText.svg')%>"/>
+      </div>
+      <div class="header__links">
+        <a href="#" class="header__link">Контакты</a>
+        <div class="header__link-star">
+          <img class="header__star" src="<%=require('./images/star.svg')%>"/>
+          <a href="#" class="header__link">Отзывы</a>
+        </div>
+        <a href="#" class="header__link">Гарантии</a>
+      </div>
+      <div class="header__contacts">
+        <p class="header__worktime">Звоните, пн-вс 10:00 - 20:00</p>
+        <p class="header__phone">+7 351 220 77 04</p>
+      </div>
+    </div>
+    <div class="header__navBar">
+      <div class="header__navBar-container">
+        <div class="header__catalog">
+          <img  src="<%=require('./images/katalog.svg')%>"/>
+          <p class="header__navBar-text">Каталог</p>
+          <img class="header__razdelitel-1th" src="<%=require('./images/razdelitel.svg')%>"/>
+        </div>
+        <div class="header__remont">
+          <img src="<%=require('./images/appleIcon.svg')%>"/>
+          <p class="header__navBar-text header__text-selector">Ремонт Apple</p>
+        </div>
+        <img class="header__razdelitel" src="<%=require('./images/razdelitel.svg')%>"/>
+        <div class="header__remont">
+          <img  src="<%=require('./images/mobileIcon.svg')%>"/>
+          <p class="header__navBar-text header__text-selector">Ремонт смартфонов</p>
+        </div>
+        <img class="header__razdelitel" src="<%=require('./images/razdelitel.svg')%>"/>
+        <div class="header__remont">
+          <img  src="<%=require('./images/ipad.svg')%>"/>
+          <p class="header__navBar-text header__text-selector">Ремонт планшетов</p>
+        </div>
+        <img class="header__razdelitel" src="<%=require('./images/razdelitel.svg')%>"/>
+        <div class="header__remont">
+          <img  src="<%=require('./images/nout.svg')%>"/>
+          <p class="header__navBar-text header__text-selector">Ремонт ноутбуков</p>
+        </div>
+        <img class="header__razdelitel" src="<%=require('./images/razdelitel.svg')%>"/>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="service">
+      <img class="service__img-absolute" src="<%=require('./images/background.png')%>"/>
+      <div class="service__container">
+        <h1 class="service__title">Сервисный центр</h1>
+        <p class="service__text">Ремонт планшетов в Челябинске. Бесплатно продиагностируем и быстро починим любую поломку. Гарантия 3 месяца</p>
+        <div class="service__reserved">Записаться на диагностику</div>
+        <div class="service__icons">
+          <div class="service__icons-item">
+            <img class="service__img" src="<%=require('./images/123.png')%>"/>
+            <p class="service__icons-text">Починим даже то, от чего отказались другие</p>
+          </div>
+          <div class="service__icons-item">
+            <img class="service__img" src="<%=require('./images/shit.png')%>"/>
+            <p class="service__icons-text">Гарантия нашего <br>
+              сервиса 3 месяца</p>
+          </div>
+        </div>
+        <div class="service__icons">
+          <div class="service__icons-item">
+            <img class="service__img" src="<%=require('./images/BB.png')%>"/>
+            <p class="service__icons-text service__icons-text_underline">Собственная выгодная бонусная система</p>
+          </div>
+          <div class="service__icons-item">
+            <img class="service__img" src="<%=require('./images/lupa.png')%>"/>
+            <p class="service__icons-text">Бесплатная диагностика даже при отказе от ремонта</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="masters__line"></div>
+    <section class="masters">
+      <div class="masters__container">
+        <h2 class="masters__title">Ремонт осуществляется <br>
+          первоклассными специалистами</h2>
+        <p class="masters__text">Средний опыт работы наших мастеров 4 года</p>
+        <div class="masters__items">
+          <div class="masters__item">
+            <img class="masters__img" src="<%=require('./images/ilya.png')%>"/>
+            <h3 class="masters__name">Илья</h3>
+            <p class="masters__skill">Мастер по ремонту, опыт 5 лет. <br> В «Белом Сервисе» с июля 2020</p>
+            <p class="masters__count">Более 4 800 выполненных работ</p>
+            <p class="masters__quote">Определю любую причину поломки!</p>
+          </div>
+          <div class="masters__item">
+            <img class="masters__img" src="<%=require('./images/alex.png')%>"/>
+            <h3 class="masters__name">Александр</h3>
+            <p class="masters__skill">Мастер по ремонту, опыт 4,5 года.<br> В «Белом Сервисе» с августа 2020</p>
+            <p class="masters__count">Более 5 200 выполненных работ</p>
+            <p class="masters__quote masters__quote-alex">Верну к жизни, как самые первые модели, так и новинки  смартфонов.</p>
+          </div>
+          <div class="masters__item">
+            <img class="masters__img" src="<%=require('./images/andrey.png')%>"/>
+            <h3 class="masters__name">Андрей</h3>
+            <p class="masters__skill">Мастер по ремонту и переклейке дисплеев, опыт 5 лет. В «Белом Сервисе» с сентября 2020</p>
+            <p class="masters__count">Более 4 800 выполненных работ</p>
+            <p class="masters__quote">Ремонт Apple – мой конек!</p>
+          </div>
+          <div class="masters__item">
+            <img class="masters__img" src="<%=require('./images/dm.png')%>"/>
+            <h3 class="masters__name">Дмитрий</h3>
+            <p class="masters__skill">Мастер по ремонту, опыт 9 лет. В «Белом Сервисе» с марта 2020</p>
+            <p class="masters__count">Более 4 800 выполненных работ</p>
+            <p class="masters__quote masters__quote-alex">Мы даем гарантию
+              и исполняем ее. На технику – это всегда год.</p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="address">
+      <div class="address__container">
+        <div class="address__content">
+          <img class="address__img" src="<%=require('./images/1.png')%>"/>
+          <div class="address__content-container">
+            <h3 class="address__title">Сервисные центры</h3>
+            <p class="address__text">Первый сервисный центр Белый Сервис распахнул свои двери 28 марта 2012 года по адресу г. Челябинск, ул. Энгельса 75. </p>
+            <p class="address__text-2">На текущий момент «Белый Сервис» имеет три филиала со своими приемщиками и мастерами. Гибко распределяем рабочую нагрузку: если персонал на одной из точек перегружен заказами, то часть работ передается их менее загруженным коллегам из другого филиала.
+            </p>
+            <button class="address__button">Показать адреса</button>
+          </div>
+        </div>
+        <div class="address__imgs">
+          <img class="address__img-1"src="<%=require('./images/2.png')%>"/>
+          <img class="address__img-2"src="<%=require('./images/3.png')%>"/>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

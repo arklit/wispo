@@ -1,0 +1,81 @@
+.masters{
+  max-width: 1520px;
+  margin: 59px auto 0;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  &__text {
+    font-size: 26px;
+    line-height: 120%;
+    margin-bottom: 80px;
+  }
+  &__line {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+  }
+  &__items {
+    display: flex;
+    margin-bottom: 80px;
+  }
+  &__item {
+    width: 356px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+  }
+  &__img {
+    border-radius: 50%;
+    width: 223px;
+    height: 223px;
+  }
+  &__name {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 130%;
+  }
+  &__skill {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    height: 66px;
+  }
+  &__count {
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+  }
+  &__count::before {
+    content: url('../../images/rabotimastera.png');
+    margin-right: 10px;
+  }
+  &__quote {
+    background-image: url('../../images/quote.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 296px;
+    height: 78px;
+    font-size: 16px;
+    line-height: 120%;
+    margin-top: 32px;
+    padding: 24px 16px 16px 16px;
+
+    &-alex {
+      padding-top: 16px;
+    }
+  }
+}
