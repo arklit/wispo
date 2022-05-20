@@ -62,21 +62,19 @@
     margin-right: 5px;
   }
   &__navBar {
-    border-top: 1px solid #E6E6E6;
-    margin-top: 21px;
     width: 100%;
-
     &-container {
       padding: 10px 0 10px 0;
       height: 60px;
       max-width: 1520px;
       margin: 0 auto;
       display: flex;
+      align-items: center;
     }
     &-text {
-      margin-left: 10px;
       font-size: 16px;
       line-height: 20px;
+      margin-left: 10px;
     }
   }
   &__catalog {
@@ -90,7 +88,7 @@
   &__remont {
     display: flex;
     align-items: center;
-    margin-left: 72px;
+    margin-left: 67px;
     margin-right: 67px;
   }
   &__razdelitel {
@@ -102,23 +100,46 @@
     height: 28px;
     margin-left: 57px;
   }
-  &__text-selector::after {
-    content: url('../../images/selectTag.svg');
-    margin-left: 5px;
+  &__icon {
+    margin-left: 10px;
+  }
+  &__line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border: 1px solid #e6e6e6;
   }
 }
-@media screen and (max-width: 1540px){
-  .header{
-  padding: 0 40px;
-  }
-}
-@media screen and (max-width: 1366px) {
+
+@media screen and (max-width: 1919px) {
   .header {
-    max-width: 1080px;
     padding: 0;
-    margin: 0 auto;
+    &__container {
+      max-width: 1080px;
+    }
     &__razdelitel {
       visibility: hidden;
+    }
+    &__links {
+      display: none;
+    }
+    &__razdelitel {
+      display: none;
+    }
+    &__razdelitel-1th {
+      margin-left: 27px;
+    }
+    &__remont {
+      margin: 0 0 0 47px;
+    }
+    &__navBar {
+      max-width: 1080px;
+      margin: 0 auto;
+      &-text {
+        font-size: 14px;
+        line-height: 17px;
+      }
     }
   }
 }
