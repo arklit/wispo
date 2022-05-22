@@ -53,7 +53,6 @@
     font-size: 18px;
     line-height: 120%;
     text-align: center;
-    // height: 66px;
   }
   &__count {
     margin-top: 32px;
@@ -118,7 +117,7 @@
   .masters {
     margin-top: 200px;
     &__container {
-      margin: 0;
+      margin: 0 auto;
     }
     &__title {
       font-size: 36px;
@@ -148,6 +147,31 @@
       width: 260px;
       height: 68px;
       font-size: 14px;
+    }
+  }
+}
+@media screen and (max-width: 1023px) {
+  .masters {
+    margin-top: 120px;
+    &__container {
+      max-width: 706px;
+    }
+    &__title {
+      width: 649px;
+      margin-bottom: 32px;
+    }
+    &__item {
+      width: 197px;
+    }
+    &__img {
+      width: 165px;
+      height: 165px;
+    }
+    &__quote {
+      width: 197px;
+      border-radius: 20px;
+      font-size: 12px;
+      padding: 15px 7px 14px 10px;
     }
   }
 }

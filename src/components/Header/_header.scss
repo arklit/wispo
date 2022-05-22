@@ -7,17 +7,6 @@
     display: flex;
     flex-direction: row;
   }
-  &__logo {
-    position: relative;
-    &-img {
-      margin-right: 11px;
-    }
-  }
-  &__logo-subtext{
-    position: absolute;
-    bottom: 5px;
-    left: 40px;
-  }
   &__links {
     display: flex;
     align-items: center;
@@ -164,5 +153,30 @@
      display: none;
    }
  }
+}
+@media screen and (max-width: 1023px) {
+  .header {
+    &__container {
+      max-width: 650px;
+    }
+    &__contacts {
+      align-self: center;
+    }
+    &__navBar {
+      max-width: 650px;
+    }
+    &__kat {
+      display: none;
+    }
+    &__razdelitel-1th {
+      margin-left: 23px;
+    }
+    &__remont {
+      margin-left: 37px;
+    }
+    &__icon {
+      display: none;
+    }
+  }
 }
 

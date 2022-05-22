@@ -135,3 +135,23 @@
     }
   }
 }
+@media screen and(max-width: 1023px) {
+  .address {
+    max-width: 650px;
+
+&__img {
+  width: 197px;
+  height: 141px;
+  margin-right: 30px;
+}
+&__img-1{
+  width: 197px;
+  height: 141px;
+  margin-right: 30px;
+}
+&__img-2{
+  width: 197px;
+  height: 141px;
+}
+  }
+}
