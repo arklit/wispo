@@ -205,7 +205,68 @@
  .img-1024 {
    display: none;
  }
+ .img-375 {
+   display: none;
+ }
  .img-768 {
    display: block;
  }
+}
+@media screen and (max-width: 767px) {
+.service{
+  box-shadow: none;
+  height: 778px;
+ &__container {
+   width: 335px;
+   padding: 60px 0 0 0;
+   margin: 0 auto;
+ }
+ &__title {
+  font-size: 26px;
+  width: 220px;
+ }
+ &__text {
+   width: 180px;
+   margin: 32px 0 32px;
+   font-size: 14px;
+ }
+ &__reserved {
+   width: 320px;
+   height: 65px;
+   &-text {
+     padding: 27px 0 18px 30px;
+   }
+ }
+ &__icons {
+  flex-direction: row;
+  &-item {
+    flex-direction: column;
+    margin-top: 24px;
+  }
+  &-text {
+    width: 152px;
+    text-align: center;
+    margin-left: 0;
+  }
+  }
+  &__img {
+    align-self: center;
+    margin-bottom: 21px;
+  }
+  &__smile-absolute {
+    box-shadow: 0px 10px 30px -6px rgba(35, 25, 4, 0.15);
+    bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    border-radius: 61px;
+  }
+}
+.img-768 {
+  display: none;
+}
+.img-375 {
+  display: block;
+}
 }

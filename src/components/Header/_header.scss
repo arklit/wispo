@@ -92,6 +92,9 @@
   &__icon {
     margin-left: 10px;
   }
+  &__navBar-mobile {
+    display: none;
+  }
   &__line {
     position: absolute;
     left: 0;
@@ -178,5 +181,39 @@
       display: none;
     }
   }
+}
+@media screen and (max-width: 767px) {
+ .header{
+
+   &__container {
+    max-width: 327px;
+    height: 22px;
+    margin: 5px auto 14px;
+   }
+   &__worktime {
+     display: none;
+   }
+   &__phone {
+    font-size: 16px;
+   }
+   &__phone::before {
+     content: none;
+   }
+   &__navBar {
+    width: 327px;
+    padding-bottom: 14px;
+    &-container {
+      display: none;
+    }
+   }
+   &__line {
+     display: none;
+   }
+   &__navBar-mobile {
+     display: block;
+     display: flex;
+     justify-content: space-between;
+   }
+ }
 }
 

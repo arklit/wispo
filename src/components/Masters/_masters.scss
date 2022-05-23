@@ -175,3 +175,50 @@
     }
   }
 }
+@media screen and (max-width: 767px) {
+  .masters {
+    margin-top: 30px;
+    &__container {
+      max-width: 327px;
+    }
+    &__title {
+      width: 326px;
+      font-size: 22px;
+      margin-bottom: 24px;
+    }
+    &__text {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    &__item {
+      width: 242px;
+    }
+    &__img {
+      width: 210px;
+      height: 210px;
+    }
+    &__name {
+      margin-top: 24px;
+      font-size: 18px;
+    }
+    &__skill {
+      width: 242px;
+    }
+    &__count {
+      width: 100%
+    }
+    &__count::before {
+      content: url('../../images/galochka375.png');
+    }
+    &__quote {
+      width: 100%;
+      margin-top: 24px;
+    }
+    &__item:nth-child(2) {
+      display: none;
+    }
+    &__item:nth-child(3) {
+      display: none;
+    }
+  }
+}
