@@ -239,6 +239,7 @@
  }
  &__icons {
   flex-direction: row;
+  justify-content: space-between;
   &-item {
     flex-direction: column;
     margin-top: 24px;
