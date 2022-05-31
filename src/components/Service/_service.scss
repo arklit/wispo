@@ -31,7 +31,7 @@
     line-height: 120%;
   }
   &__reserved {
-    background-image: url('../../images/reserved.svg');
+    background-image: url('../../images/svg/reserved.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -45,7 +45,7 @@
     padding: 30px 0 24px 0;
   }
   &__reserved-text::before {
-    content: url('../../images/reserved2.svg');
+    content: url('../../images/svg/reserved2.svg');
     margin-right: 15px;
   }
   &__icons {
@@ -144,7 +144,7 @@
     text-align: center;
    }
    &__reserved-text::before {
-    content:url('../../images/diagnostika1024.svg')
+    content:url('../../images/svg/diagnostika1024.svg')
    }
    &__icons {
      margin-top: 32px;

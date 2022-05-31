@@ -4,6 +4,9 @@
 @import '../components/Masters/masters';
 @import '../components/Address/address';
 @import '../components/Menu/menu';
+@import 'swiper/scss';
+@import 'swiper/scss/navigation';
+@import 'swiper/scss/pagination';
 * {
   padding: 0;
   margin: 0;

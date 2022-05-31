@@ -38,7 +38,7 @@
     text-align: end;
   }
   &__worktime::before {
-    content: url('../../images/greenDot.svg');
+    content: url('../../images/svg/greenDot.svg');
     margin-right: 3px;
   }
   &__phone {
@@ -47,7 +47,7 @@
     line-height: 32px;
   }
   &__phone::before {
-    content: url('../../images/trubka.svg');
+    content: url('../../images/svg/trubka.svg');
     margin-right: 5px;
   }
   &__navBar {
